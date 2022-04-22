@@ -37,6 +37,11 @@
                         <a class="nav-link" href="{{ route('productos.index') }}">{{ __('Productos') }}</a>
                     </ul>
                     @endif
+                    @if (Auth::check())
+                    <ul class="navbar-nav mr-auto">
+                        <a class="nav-link" href="{{ route('home') }}">{{ __('Home') }}</a>
+                    </ul>
+                    @endif
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">

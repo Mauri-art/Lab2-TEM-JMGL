@@ -40,7 +40,7 @@
 										<th>Tipo</th>
 										<th>Costo</th>
 										<th>Existencia</th>
-										<th>Acciones</th>
+										<th>Cantidad Existente</th>
 
                                         <th></th>
                                     </tr>
