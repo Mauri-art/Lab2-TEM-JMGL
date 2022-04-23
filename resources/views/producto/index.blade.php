@@ -31,8 +31,8 @@
 
                     <div class="card-body">
                         <div class="table-responsive">
-                            <table class="table table-striped table-hover">
-                                <thead class="thead">
+                            <table class="table table-striped table-hover table-sm">
+                                <thead class="thead-dark">
                                     <tr>
                                         <th>Item</th>                                        
 										<th>Codigo</th>

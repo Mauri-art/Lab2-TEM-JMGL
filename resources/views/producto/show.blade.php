@@ -7,11 +7,13 @@
 @section('content')
     <section class="content container-fluid">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-6">
                 <div class="card">
                     <div class="card-header">
                         <div class="float-left">
-                            <span class="card-title">Show Producto</span>
+                            <span class="card-title">Mostrar Producto</span>
                         </div>
                         <div class="float-right">
                             <a class="btn btn-primary" href="{{ route('productos.index') }}"> Back</a>
@@ -21,32 +23,34 @@
                     <div class="card-body">
                         
                         <div class="form-group">
-                            <strong>Cod Product:</strong>
+                            <strong>Codigo De Producto</strong>
                             {{ $producto->cod_product }}
                         </div>
                         <div class="form-group">
-                            <strong>Nameprod:</strong>
+                            <strong>Nombre de Producto</strong>
                             {{ $producto->nameProd }}
                         </div>
                         <div class="form-group">
-                            <strong>Descprod:</strong>
+                            <strong>Descripcion De producto</strong>
                             {{ $producto->descProd }}
                         </div>
                         <div class="form-group">
-                            <strong>Typeprod:</strong>
+                            <strong>Tipo De Producto</strong>
                             {{ $producto->typeProd }}
                         </div>
                         <div class="form-group">
-                            <strong>Costunit:</strong>
+                            <strong>Costo Unitario</strong>
                             {{ $producto->costUnit }}
                         </div>
                         <div class="form-group">
-                            <strong>Cantexist:</strong>
+                            <strong>Cantidad Existente</strong>
                             {{ $producto->cantExist }}
                         </div>
 
                     </div>
                 </div>
+            </div>
+            <div class="col-md-3">
             </div>
         </div>
     </section>
