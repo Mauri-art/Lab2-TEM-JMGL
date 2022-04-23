@@ -37,10 +37,10 @@
                                         <th>Item</th>                                        
 										<th>Codigo</th>
 										<th>Nombre del producto</th>
+										<th>Descripcion</th>
 										<th>Tipo</th>
-										<th>Costo</th>
+										<th>Coste</th>
 										<th>Existencia</th>
-										<th>Cantidad Existente</th>
 
                                         <th></th>
                                     </tr>
